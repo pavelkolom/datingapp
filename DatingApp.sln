@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{BC36C5DB-20F5-4D66-91E4-88CEECA88655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{BC36C5DB-20F5-4D66-91E4-88CEECA88655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatingAppSPA", "DatingAppSPA\DatingAppSPA.csproj", "{D272740B-DA85-44C8-9CB4-BA6E725BBA03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BC36C5DB-20F5-4D66-91E4-88CEECA88655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +29,23 @@ Global
 		{BC36C5DB-20F5-4D66-91E4-88CEECA88655}.Release|x64.Build.0 = Release|Any CPU
 		{BC36C5DB-20F5-4D66-91E4-88CEECA88655}.Release|x86.ActiveCfg = Release|Any CPU
 		{BC36C5DB-20F5-4D66-91E4-88CEECA88655}.Release|x86.Build.0 = Release|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Debug|x64.Build.0 = Debug|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Debug|x86.Build.0 = Debug|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Release|x64.ActiveCfg = Release|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Release|x64.Build.0 = Release|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Release|x86.ActiveCfg = Release|Any CPU
+		{D272740B-DA85-44C8-9CB4-BA6E725BBA03}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0555D3AB-C2FB-467F-8F0A-B0AE4F1D86EF}
 	EndGlobalSection
 EndGlobal
